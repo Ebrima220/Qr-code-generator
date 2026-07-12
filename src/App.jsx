@@ -244,8 +244,8 @@ export default function App() {
     <div className="max-w-[1100px] mx-auto w-full">
       {/* Header */}
       <header className="text-center mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">QR Code Generator</h1>
-        <p className="mt-1.5 text-sm text-slate-500">Generate QR codes for URLs, phone numbers, Wi-Fi, events, and business cards.</p>
+        <h1 className="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight transition-all">Free QR Code Generator</h1>
+        <p className="mt-3 text-base text-slate-500 max-w-2xl mx-auto">Create custom QR codes instantly for URLs, Wi-Fi networks, phone calls, event tickets, and professional business cards. 100% free with no registration or hidden fees.</p>
       </header>
 
       {/* Mobile Tab Switcher (hidden on md+) */}
@@ -600,8 +600,112 @@ export default function App() {
 
       </div>{/* /.panels-wrapper */}
 
+      {/* SEO & Informational Content Section */}
+      <section className="mt-16 border-t border-slate-200 pt-16 space-y-16">
+        
+        {/* Steps Section */}
+        <div>
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 text-center mb-10">How to Create a QR Code in 3 Simple Steps</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm relative group hover:border-emerald-500 transition-all duration-200">
+              <div className="w-10 h-10 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg mb-4">1</div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Choose Your QR Code Type</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">Select from URLs, phone numbers, Wi-Fi networks, event ticket details, or digital business cards (vCards).</p>
+            </div>
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm relative group hover:border-emerald-500 transition-all duration-200">
+              <div className="w-10 h-10 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg mb-4">2</div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Enter Your Information</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">Input the target web address, network passwords, text fields, or contact data. Our generator formats output instantly.</p>
+            </div>
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm relative group hover:border-emerald-500 transition-all duration-200">
+              <div className="w-10 h-10 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-lg mb-4">3</div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Generate and Download</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">Preview the generated QR pattern live. Click to save a high-resolution PNG file ready for print layout or banners.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Features Grids */}
+        <div>
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 text-center mb-3">QR Code Formats & Features Tailored for You</h2>
+          <p className="text-center text-sm text-slate-500 max-w-2xl mx-auto mb-10">We support the most popular static formats to connect offline users to digital systems without scanning limits.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
+              <div className="text-2xl mb-3">🔗</div>
+              <h3 className="text-base font-bold text-slate-900 mb-2">Website URL QR Codes</h3>
+              <p className="text-xs text-slate-500 leading-relaxed">Direct customers to online stores, social campaigns, digital menus, or signup pages. Type or paste your URL to construct links instantaneously.</p>
+            </div>
+            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
+              <div className="text-2xl mb-3">📶</div>
+              <h3 className="text-base font-bold text-slate-900 mb-2">Wi-Fi Connect Codes</h3>
+              <p className="text-xs text-slate-500 leading-relaxed">Share secure home or business Wi-Fi connections. Visitors connect immediately with one simple photo scan, no password pasting or typing required.</p>
+            </div>
+            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
+              <div className="text-2xl mb-3">🎫</div>
+              <h3 className="text-base font-bold text-slate-900 mb-2">Event Ticket QR Codes</h3>
+              <p className="text-xs text-slate-500 leading-relaxed">Issue digital passes for concerts, community meetups, or corporate seminars. Auto-generates event details, time maps, and custom ticket IDs.</p>
+            </div>
+            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
+              <div className="text-2xl mb-3">🏢</div>
+              <h3 className="text-base font-bold text-slate-900 mb-2">vCard Business Cards</h3>
+              <p className="text-xs text-slate-500 leading-relaxed">Share professional profiles over QR. Scanners can save contact cards, cell numbers, emails, and office locations to phonebooks with a single click.</p>
+            </div>
+            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
+              <div className="text-2xl mb-3">📞</div>
+              <h3 className="text-base font-bold text-slate-900 mb-2">Phone Number QR Codes</h3>
+              <p className="text-xs text-slate-500 leading-relaxed">Trigger standard cell calls instantly when scanned. Excellent for customer support signs, billboards, and offline call-to-actions.</p>
+            </div>
+            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
+              <div className="text-2xl mb-3">🔒</div>
+              <h3 className="text-base font-bold text-slate-900 mb-2">Privacy & Security Built-In</h3>
+              <p className="text-xs text-slate-500 leading-relaxed">Inputs are encoded locally in your browser context. We never upload your security keys, passwords, or personal details to external storage servers.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* FAQ Section */}
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-10 shadow-sm">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 text-center mb-8">Frequently Asked Questions</h2>
+          <div className="space-y-6 divide-y divide-slate-100">
+            <div className="pt-6 first:pt-0">
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">Do these QR codes expire?</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">No. The QR codes created on this platform are static, meaning the data is directly written into the pixel map. They do not expire, run on timer restrictions, or go offline.</p>
+            </div>
+            <div className="pt-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">Can I generate QR codes for commercial use for free?</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">Yes, absolutely. All high-resolution PNG graphics generated are free to use. You can print them on packaging tags, physical menus, business cards, billboards, or websites.</p>
+            </div>
+            <div className="pt-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">What is the difference between static and dynamic QR codes?</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">A static QR code wraps the exact credentials inside the image pattern, making it work forever, but it cannot be revised after creation. Dynamic QR codes load a redirect URL from a remote database, allowing analytics tracking and location changes, but typically require ongoing service memberships.</p>
+            </div>
+            <div className="pt-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">How can I ensure my QR code will scan successfully?</h3>
+              <p className="text-sm text-slate-555 leading-relaxed">Ensure high structural contrast (e.g. keeping dark matrix boxes on clean white cards). Keep your source text block short, as extremely long links create high-density codes that are harder for mobile lenses to process.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Global CTA Section */}
+        <div className="bg-gradient-to-tr from-slate-900 to-slate-800 rounded-3xl p-8 md:p-12 text-center text-white shadow-lg space-y-6">
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight">Need a Lifetime Free QR Code?</h2>
+          <p className="text-sm md:text-base text-slate-300 max-w-xl mx-auto leading-relaxed">Optimize your physical campaigns, menus, WiFi logins, and digital contact shares instantly. Ready to generate yours now?</p>
+          <div>
+            <button 
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="inline-flex items-center justify-center font-semibold bg-emerald-500 hover:bg-emerald-600 active:scale-[0.98] transition-all text-white text-sm py-3 px-8 rounded-xl shadow-md cursor-pointer border-0"
+            >
+              Start Generating Free QR Codes
+            </button>
+          </div>
+        </div>
+
+      </section>
+
       {/* Footer */}
-      <p className="text-center mt-10 text-xs text-slate-400">Made by <span className="text-emerald-500 font-semibold">Ebrima</span> · QR Code Generator</p>
+      <footer className="text-center mt-16 text-xs text-slate-400">
+        <p>Made by <span className="text-emerald-500 font-semibold">Ebrima</span> · QR Code Generator</p>
+      </footer>
     </div>
   )
 }
