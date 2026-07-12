@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased min-h-screen py-10 px-4;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
