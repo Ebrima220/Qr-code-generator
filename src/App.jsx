@@ -631,32 +631,26 @@ export default function App() {
           <p className="text-center text-sm text-slate-500 max-w-2xl mx-auto mb-10">We support the most popular static formats to connect offline users to digital systems without scanning limits.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
-              <div className="text-2xl mb-3">🔗</div>
               <h3 className="text-base font-bold text-slate-900 mb-2">Website URL QR Codes</h3>
               <p className="text-xs text-slate-500 leading-relaxed">Direct customers to online stores, social campaigns, digital menus, or signup pages. Type or paste your URL to construct links instantaneously.</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
-              <div className="text-2xl mb-3">📶</div>
               <h3 className="text-base font-bold text-slate-900 mb-2">Wi-Fi Connect Codes</h3>
               <p className="text-xs text-slate-500 leading-relaxed">Share secure home or business Wi-Fi connections. Visitors connect immediately with one simple photo scan, no password pasting or typing required.</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
-              <div className="text-2xl mb-3">🎫</div>
               <h3 className="text-base font-bold text-slate-900 mb-2">Event Ticket QR Codes</h3>
               <p className="text-xs text-slate-500 leading-relaxed">Issue digital passes for concerts, community meetups, or corporate seminars. Auto-generates event details, time maps, and custom ticket IDs.</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
-              <div className="text-2xl mb-3">🏢</div>
               <h3 className="text-base font-bold text-slate-900 mb-2">vCard Business Cards</h3>
               <p className="text-xs text-slate-500 leading-relaxed">Share professional profiles over QR. Scanners can save contact cards, cell numbers, emails, and office locations to phonebooks with a single click.</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
-              <div className="text-2xl mb-3">📞</div>
               <h3 className="text-base font-bold text-slate-900 mb-2">Phone Number QR Codes</h3>
               <p className="text-xs text-slate-500 leading-relaxed">Trigger standard cell calls instantly when scanned. Excellent for customer support signs, billboards, and offline call-to-actions.</p>
             </div>
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6">
-              <div className="text-2xl mb-3">🔒</div>
               <h3 className="text-base font-bold text-slate-900 mb-2">Privacy & Security Built-In</h3>
               <p className="text-xs text-slate-500 leading-relaxed">Inputs are encoded locally in your browser context. We never upload your security keys, passwords, or personal details to external storage servers.</p>
             </div>
